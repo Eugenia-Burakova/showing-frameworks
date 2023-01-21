@@ -1,0 +1,17 @@
+.jquery {
+    background-image: url(https://www.interviewbit.com/blog/wp-content/uploads/2021/10/jquery-logo-vertical_large_square.png);
+    width: 250px;
+    height: 250px;
+}
+
+.react {
+    background-image: url(https://files.readme.io/fed7fbc-765-7652239_react-native-svg-logo-hd-png-download.png);
+    width: 300px;
+    height: 320px;
+}
+
+.angular {
+    background-image: url(https://logodix.com/logo/1305085.png);
+    width: 250px;
+    height: 250px;
+}
