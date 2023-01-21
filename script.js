@@ -18,3 +18,44 @@ function clickOnFrameworkText(frameworkItem) { // how clickOnFrameworkText works
         }
     })
 }
+
+
+//RIGHT VARIANT
+// let frameworkItems = document.querySelectorAll(".framework"); // found each framework (class) element
+// frameworkItems.forEach(clickOnFrameworkText); //create funct named clickOnFrameworkText that works for each element with class 'framework'
+// function clickOnFrameworkText (frameworkItem){ // how clickOnFrameworkText works
+//   frameworkItem.addEventListener('click', function(){
+//     document.querySelector('.framework-icon').classList.add(frameworkItem.dataset.icon);
+//     // console.log(frameworkItem.dataset.icon);
+//   })
+// }
+
+
+//WORKS             
+// let frameworkItems = document.querySelectorAll(".framework"); // found each framework (class) element
+// frameworkItems.forEach(clickOnFrameworkText); //create funct named clickOnFrameworkText that works for each element with class 'framework'
+// function clickOnFrameworkText (frameworkItem){ // how clickOnFrameworkText works
+//   frameworkItem.addEventListener('click', function(){
+//     // document.querySelector('.framework-icon').classList.add(frameworkItem.dataset.icon);
+//       let arrOfDataIcons = frameworkItem.dataset.icon;
+//       let getClassFrameworkIcon = document.querySelectorAll('.framework-icon'); // чому застосування getElementByClassName замість querySelector видає в консолі "is not a function"?
+//       getClassFrameworkIcon[0].classList.add(arrOfDataIcons);  //????????[0]
+//     console.log(getClassFrameworkIcon);
+//   })
+// }
+
+
+//ALSO RIGHT VARIANT
+// let frameworkItems = document.querySelectorAll(".framework"); // found each framework (class) element
+// frameworkItems.forEach(clickOnFrameworkText); //create funct named clickOnFrameworkText that works for each element with class 'framework'. функція у фор іч працює з одним елементом масива по черзі
+// function clickOnFrameworkText (frameworkItem){ // how clickOnFrameworkText works
+//   frameworkItem.addEventListener('click', function(){
+//     // document.querySelector('.framework-icon').classList.add(frameworkItem.dataset.icon);
+//       let arrOfDataIcons = frameworkItem.dataset.icon;
+//       let getClassFrameworkIcon = document.getElementsByClassName('framework-icon'); // чому застосування getElementByClassName замість querySelector видає в консолі "is not a function"?
+//       getClassFrameworkIcon[0].classList.add(arrOfDataIcons); 
+    
+//       getClassFrameworkIcon = getClassFrameworkIcon.classList.length;
+//       // console.log(getClassFrameworkIcon);
+//   })
+// }
