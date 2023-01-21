@@ -38,8 +38,8 @@ function clickOnFrameworkText(frameworkItem) { // how clickOnFrameworkText works
 //   frameworkItem.addEventListener('click', function(){
 //     // document.querySelector('.framework-icon').classList.add(frameworkItem.dataset.icon);
 //       let arrOfDataIcons = frameworkItem.dataset.icon;
-//       let getClassFrameworkIcon = document.querySelectorAll('.framework-icon'); // чому застосування getElementByClassName замість querySelector видає в консолі "is not a function"?
-//       getClassFrameworkIcon[0].classList.add(arrOfDataIcons);  //????????[0]
+//       let getClassFrameworkIcon = document.querySelectorAll('.framework-icon');
+//       getClassFrameworkIcon[0].classList.add(arrOfDataIcons);  //[0]
 //     console.log(getClassFrameworkIcon);
 //   })
 // }
@@ -52,7 +52,7 @@ function clickOnFrameworkText(frameworkItem) { // how clickOnFrameworkText works
 //   frameworkItem.addEventListener('click', function(){
 //     // document.querySelector('.framework-icon').classList.add(frameworkItem.dataset.icon);
 //       let arrOfDataIcons = frameworkItem.dataset.icon;
-//       let getClassFrameworkIcon = document.getElementsByClassName('framework-icon'); // чому застосування getElementByClassName замість querySelector видає в консолі "is not a function"?
+//       let getClassFrameworkIcon = document.getElementsByClassName('framework-icon');
 //       getClassFrameworkIcon[0].classList.add(arrOfDataIcons); 
     
 //       getClassFrameworkIcon = getClassFrameworkIcon.classList.length;
